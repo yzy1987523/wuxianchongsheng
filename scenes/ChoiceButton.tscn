@@ -9,49 +9,49 @@
 [ext_resource type="Texture2D" path="res://art/ui/choice/choice_corrupted.png" id="7_corrupted"]
 
 [sub_resource type="StyleBoxTexture" id="Normal"]
-texture = ExtResource("2_normal")
-texture_margin_left = 8.0
-texture_margin_top = 8.0
-texture_margin_right = 8.0
-texture_margin_bottom = 8.0
-draw_center = true
+	texture = ExtResource("2_normal")
+	texture_margin_left = 8.0
+	texture_margin_top = 8.0
+	texture_margin_right = 8.0
+	texture_margin_bottom = 8.0
+	draw_center = true
 
 [sub_resource type="StyleBoxTexture" id="Hover"]
-texture = ExtResource("3_hover")
-texture_margin_left = 8.0
-texture_margin_top = 8.0
-texture_margin_right = 8.0
-texture_margin_bottom = 8.0
-draw_center = true
+	texture = ExtResource("3_hover")
+	texture_margin_left = 8.0
+	texture_margin_top = 8.0
+	texture_margin_right = 8.0
+	texture_margin_bottom = 8.0
+	draw_center = true
 
 [sub_resource type="StyleBoxTexture" id="Pressed"]
-texture = ExtResource("4_pressed")
-texture_margin_left = 8.0
-texture_margin_top = 8.0
-texture_margin_right = 8.0
-texture_margin_bottom = 8.0
-draw_center = true
+	texture = ExtResource("4_pressed")
+	texture_margin_left = 8.0
+	texture_margin_top = 8.0
+	texture_margin_right = 8.0
+	texture_margin_bottom = 8.0
+	draw_center = true
 
 [sub_resource type="StyleBoxTexture" id="Locked"]
-texture = ExtResource("5_locked")
-texture_margin_left = 8.0
-texture_margin_top = 8.0
-texture_margin_right = 8.0
-texture_margin_bottom = 8.0
-draw_center = true
+	texture = ExtResource("5_locked")
+	texture_margin_left = 8.0
+	texture_margin_top = 8.0
+	texture_margin_right = 8.0
+	texture_margin_bottom = 8.0
+	draw_center = true
 
 [node name="ChoiceButton" type="Button"]
-custom_minimum_size = Vector2(720, 64)
-offset_right = 720.0
-offset_bottom = 64.0
-mouse_default_cursor_shape = 2
-theme_override_colors/font_color = Color(0.85098, 0.835294, 0.784314, 1)
-theme_override_colors/font_hover_color = Color(0.85098, 0.835294, 0.784314, 1)
-theme_override_colors/font_pressed_color = Color(0.85098, 0.835294, 0.784314, 1)
-theme_override_colors/font_disabled_color = Color(0.5, 0.52, 0.52, 0.6)
-theme_override_font_sizes/font_size = 28
-theme_override_styles/normal = SubResource("Normal")
-theme_override_styles/hover = SubResource("Hover")
-theme_override_styles/pressed = SubResource("Pressed")
-theme_override_styles/disabled = SubResource("Locked")
-script = ExtResource("1_script")
+	custom_minimum_size = Vector2(720, 64)
+	offset_right = 720.0
+	offset_bottom = 64.0
+	mouse_default_cursor_shape = 2
+	theme_override_colors/font_color = Color(0.85098, 0.835294, 0.784314, 1)
+	theme_override_colors/font_hover_color = Color(0.85098, 0.835294, 0.784314, 1)
+	theme_override_colors/font_pressed_color = Color(0.85098, 0.835294, 0.784314, 1)
+	theme_override_colors/font_disabled_color = Color(0.5, 0.52, 0.52, 0.6)
+	theme_override_font_sizes/font_size = 28
+	theme_override_styles/normal = SubResource("Normal")
+	theme_override_styles/hover = SubResource("Hover")
+	theme_override_styles/pressed = SubResource("Pressed")
+	theme_override_styles/disabled = SubResource("Locked")
+	script = ExtResource("1_script")

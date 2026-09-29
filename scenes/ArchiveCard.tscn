@@ -3,33 +3,33 @@
 [ext_resource type="Texture2D" path="res://art/ui/archive/evidence_card.png" id="1_card"]
 
 [node name="ArchiveCard" type="PanelContainer"]
-custom_minimum_size = Vector2(560, 360)
-theme_override_styles/panel = null
+	custom_minimum_size = Vector2(560, 360)
+	theme_override_styles/panel = null
 
 [node name="Texture" type="TextureRect" parent="."]
-layout_mode = 2
-texture = ExtResource("1_card")
-expand_mode = 1
-stretch_mode = 5
-mouse_filter = 2
+	layout_mode = 2
+	texture = ExtResource("1_card")
+	expand_mode = 1
+	stretch_mode = 5
+	mouse_filter = 2
 
 [node name="Content" type="VBoxContainer" parent="."]
-layout_mode = 2
-theme_override_constants/separation = 10
+	layout_mode = 2
+	theme_override_constants/separation = 10
 
 [node name="Title" type="Label" parent="Content"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 28
-text = "线索名称"
+	layout_mode = 2
+	theme_override_font_sizes/font_size = 28
+	text = "线索名称"
 
 [node name="Meta" type="Label" parent="Content"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-text = "发现时间：第02次轮回"
+	layout_mode = 2
+	theme_override_font_sizes/font_size = 20
+	text = "发现时间：第02次轮回"
 
 [node name="Description" type="Label" parent="Content"]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_font_sizes/font_size = 22
-autowrap_mode = 2
-text = "线索描述……"
+	layout_mode = 2
+	size_flags_vertical = 3
+	theme_override_font_sizes/font_size = 22
+	autowrap_mode = 2
+	text = "线索描述……"
