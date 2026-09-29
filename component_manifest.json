@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "engine": "Godot 4.x",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "components": [
+    "DialogueBox.tscn",
+    "ChoiceButton.tscn",
+    "ArchiveCard.tscn",
+    "TimelineNode.tscn",
+    "SystemToast.tscn",
+    "DeathScreen.tscn"
+  ]
+}

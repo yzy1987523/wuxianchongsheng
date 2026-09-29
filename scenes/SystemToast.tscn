@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://art/ui/notification/system_toast.png" id="1_toast"]
+
+[node name="SystemToast" type="PanelContainer"]
+custom_minimum_size = Vector2(520, 120)
+
+[node name="Texture" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_toast")
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Content" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "◆ 新线索"
+
+[node name="Message" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "「地下室门锁」"

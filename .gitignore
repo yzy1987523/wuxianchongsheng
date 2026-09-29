@@ -1,0 +1,14 @@
+# Godot 4+ 内部缓存与临时文件
+.godot/
+
+# Mono / C# 特定
+.mono/
+data_*/
+mono_crash.*.json
+
+# 系统 / 工具特定
+.directory
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
